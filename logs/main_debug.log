@@ -1,0 +1,124 @@
+INFO:chat.views: Sergi is working here (2015-11-09 08:59:23; views.py:21)
+(2015-11-09 09:00:45; views.py:21) INFO:chat.views: Sergi is working here 
+INFO [2015-11-09 09:01:12] views.py:21) :chat.views: Sergi is working here
+[2015-11-09 09:01:48] INFO | views.py@21) | chat.views: Sergi is working here
+[2015-11-09 09:01:53] INFO | views.py@21 | chat.views: Sergi is working here
+[2015-11-09 09:02:02] INFO | views.py@21 | chat.views | Sergi is working here
+[2015-11-09 09:02:16] INFO | views.py | 21 | chat.views | Sergi is working here
+[2015-11-09 09:04:54] INFO | views.py | 26 | chat.views | LOG IN
+[2015-11-09 09:05:08] INFO | views.py | 26 | chat.views | LOG IN
+[2015-11-09 09:05:08] INFO | views.py | 27 | chat.views | username -> aa
+[2015-11-09 09:05:08] INFO | views.py | 28 | chat.views | password -> bb
+[2015-11-09 09:06:34] INFO | views.py | 26 | chat.views | LOG IN
+[2015-11-09 09:06:34] INFO | views.py | 27 | chat.views | username -> aa
+[2015-11-09 09:06:34] INFO | views.py | 28 | chat.views | password -> 
+[2015-11-09 09:15:27] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:15:27] INFO | views.py | 33 | chat.views | username -> aa
+[2015-11-09 09:15:27] INFO | views.py | 34 | chat.views | password -> bb
+[2015-11-09 09:15:27] INFO | views.py | 41 | chat.views | Created user -> aa
+[2015-11-09 09:17:10] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:17:10] INFO | views.py | 33 | chat.views | username -> aa
+[2015-11-09 09:17:10] INFO | views.py | 34 | chat.views | password -> bb
+[2015-11-09 09:17:10] INFO | views.py | 41 | chat.views | Created user -> aa
+[2015-11-09 09:17:13] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:17:13] INFO | views.py | 33 | chat.views | username -> aa
+[2015-11-09 09:17:13] INFO | views.py | 34 | chat.views | password -> bb
+[2015-11-09 09:18:48] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:18:48] INFO | views.py | 35 | chat.views | username -> aa
+[2015-11-09 09:18:48] INFO | views.py | 36 | chat.views | password -> bb
+[2015-11-09 09:18:57] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:18:57] INFO | views.py | 35 | chat.views | username -> aa
+[2015-11-09 09:18:57] INFO | views.py | 36 | chat.views | password -> bb
+[2015-11-09 09:19:09] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:19:09] INFO | views.py | 35 | chat.views | username -> aa
+[2015-11-09 09:19:09] INFO | views.py | 36 | chat.views | password -> bb
+[2015-11-09 09:19:09] INFO | views.py | 43 | chat.views | Created user -> aa
+[2015-11-09 09:19:12] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:19:12] INFO | views.py | 35 | chat.views | username -> aa
+[2015-11-09 09:19:12] INFO | views.py | 36 | chat.views | password -> bb
+[2015-11-09 09:38:07] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:38:07] INFO | views.py | 36 | chat.views | username -> sergi
+[2015-11-09 09:38:07] INFO | views.py | 37 | chat.views | password -> torrellas
+[2015-11-09 09:38:07] INFO | views.py | 42 | chat.views | Created user -> sergi
+[2015-11-09 09:38:53] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:38:53] INFO | views.py | 36 | chat.views | username -> sergi
+[2015-11-09 09:38:53] INFO | views.py | 37 | chat.views | password -> torrellas
+[2015-11-09 09:38:53] INFO | views.py | 42 | chat.views | Created user -> sergi
+[2015-11-09 09:38:53] INFO | views.py | 64 | chat.views | Room for user -> sergi
+[2015-11-09 09:39:50] INFO | views.py | 32 | chat.views | LOG IN
+[2015-11-09 09:39:50] INFO | views.py | 36 | chat.views | username -> sergi
+[2015-11-09 09:39:50] INFO | views.py | 37 | chat.views | password -> abc
+[2015-11-09 09:40:25] INFO | views.py | 33 | chat.views | LOG IN
+[2015-11-09 09:40:25] INFO | views.py | 37 | chat.views | username -> sergi
+[2015-11-09 09:40:25] INFO | views.py | 38 | chat.views | password -> abc
+[2015-11-09 09:40:33] INFO | views.py | 33 | chat.views | LOG IN
+[2015-11-09 09:40:33] INFO | views.py | 37 | chat.views | username -> sergi
+[2015-11-09 09:40:33] INFO | views.py | 38 | chat.views | password -> torrellas
+[2015-11-09 09:40:33] INFO | views.py | 67 | chat.views | Room for user -> sergi
+[2015-11-09 09:47:11] INFO | views.py | 79 | chat.views | message_list
+[2015-11-09 09:50:13] INFO | views.py | 79 | chat.views | message_list
+[2015-11-09 09:57:35] INFO | views.py | 80 | chat.views | message_list
+[2015-11-09 09:58:00] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 09:58:09] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 09:59:55] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 09:59:58] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:01:39] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:01:53] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:04:33] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:04:34] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:35] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:36] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:37] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:38] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:39] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:40] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:41] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:42] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:43] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:44] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:45] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:46] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:47] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:48] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:49] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:50] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:51] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:52] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:53] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:54] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:55] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:04:56] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:05:01] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:06] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:11] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:16] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:21] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:21] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:26] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:31] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:36] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:41] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:42] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:46] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:51] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:51] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:05:55] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:06:04] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:06:50] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:06:55] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:07:02] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:08:01] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:08:04] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:08:14] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:08:49] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:09:53] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:10:05] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:10:33] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:10:34] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:10:48] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:11:04] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:12:43] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:13:03] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:14:29] INFO | views.py | 81 | chat.views | message_list
+[2015-11-09 10:16:43] INFO | views.py | 70 | chat.views | Room for user -> sergi
+[2015-11-09 10:16:51] INFO | views.py | 81 | chat.views | message_list

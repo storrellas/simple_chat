@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% load staticfiles %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tailgater</title>
+
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Simple Side bar CSS -->
+    <link href="{% static 'css/simple-sidebar.css' %}" rel="stylesheet">   
+
+	<!-- Bootstrap switch -->
+	<link href="{% static 'css/bootstrap-switch.css' %}" rel="stylesheet">
+	<script src="{% static 'js/bootstrap-switch.js' %}"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- highcharts -->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+	<style type="text/css">
+	.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    	background: #26a4d6 none repeat scroll 0 0;
+    	color: #fff;
+	}
+	.sidebar-nav li{
+		text-indent:0px;
+	}
+	</style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand text-center">
+                    <a href="#">
+                        Tailgater
+                    </a>
+                </li>
+                <li class="text-center">
+                    <a href="#">USERS</a>
+                </li>
+                <li class="text-center">
+                    <a href="#">EVENTS</a>
+                </li>
+                <li class="text-center">
+                    <a href="#">ITEM DATABASE</a>
+                </li>
+                <li class="text-center">
+                    <a href="#">ORDERS</a>
+                </li>
+                <li class="text-center">
+                    <a href="#">SETTINGS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+		<!-- Top bar -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" style="background-color:#26A4D6; color: white; font-weight:bold">
+			
+				<ul class="nav navbar-nav navbar-right">
+	              <li><a href="#" style="color:inherit">Hello Thomas</a></li>
+	              <li><a href="#" style="color:inherit">
+	              	<input type="checkbox" name="my-checkbox" checked></a>	              
+	              </li>	              
+	            </ul>
+			
+			</div>			
+
+    	</nav>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>DASHBOARD</h1>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        
+                        <div id="chart_container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $(document).ready(function(){
+    	$("[name='my-checkbox']").bootstrapSwitch({'size': 'mini', onColor: 'primary', 'onText':'ON','offText':'OFF'});    	
+    	
+    	
+		// Char configuration   	
+		// ----------------------------------
+	    $('#chart_container').highcharts({
+	        chart: {
+	            type: 'area'
+	        },
+	        title: {
+	            text: 'Area chart with negative values'
+	        },
+	        xAxis: {
+	            categories: ['Feb', 'March', 'April', 'May', 'Jun']
+	        },
+	        credits: {
+	            enabled: false
+	        },
+	        series: [{
+	            name: 'Data',
+	            data: [5, 3, 4, 7, 2]
+	        }]
+	    });
+
+    	
+    	
+    	
+    })
+    
+    
+    </script>
+
+</body>
+
+</html>
